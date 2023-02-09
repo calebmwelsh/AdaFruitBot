@@ -1,0 +1,5 @@
+google_api_python_client==2.72.0
+google_auth_oauthlib==0.4.6
+protobuf==4.21.12
+pyotp==2.8.0
+selenium==4.7.2

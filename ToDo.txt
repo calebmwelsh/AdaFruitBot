@@ -1,0 +1,3 @@
+bypass captcha
+clean scripts
+fix view on account drop down
