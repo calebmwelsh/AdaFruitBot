@@ -7,7 +7,7 @@ A Google account. If you don't have one, create one at accounts.google.com.
 Access to the Google Cloud Console. If you don't have access, you can request it here.
 ## Step 1: Create a Google Cloud Project ##
 Go to the Google Cloud Console.
-Click on the project drop-down and select or create the project that you want to add the OAuth 2.0 Client ID to.
+Click on the project drop-down and select or create the project that you want to add the OAuth 2.0 Client ID to.\
 Click on the hamburger menu and select APIs & Services > Dashboard.
 Click on the hamburger menu again and select APIs & Services > Library.
 ## Step 2: Enable APIs ##
