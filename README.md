@@ -12,17 +12,17 @@ Click on the hamburger menu and select APIs & Services > Dashboard.<br />
 Click on the hamburger menu again and select APIs & Services > Library.<br />
 ## Step 2: Enable APIs ##
 Search for the API that you want to enable for your project. For example, if you want to access the Google Drive API, search for "Google Drive API."<br />
-Click on the API that you want to enable.\
-Click the "Enable" button.
-## Step 3: Create the OAuth 2.0 Client ID ##
-Go to the Google Cloud Console.
-Click on the hamburger menu and select APIs & Services > Credentials.
-Click on the "Create credentials" button and select "OAuth client ID."
-Select the application type that best fits your application.
-Enter a name for your application and click the "Create" button.
-Download the JSON file for your OAuth 2.0 Client ID. You will use this file in your application to authenticate with Google.
-## Step 4: Use the OAuth 2.0 Client ID in your application ##
-In your application, import the JSON file that you downloaded in Step 3.
-Use the Client ID to authenticate with Google and access the API that you enabled in Step 2.
-## Conclusion ##
-By following the steps in this guide, you should now have a Google Cloud project that uses an OAuth 2.0 Client ID. This will allow you to authenticate your application and access Google APIs on behalf of users.
+Click on the API that you want to enable.<br />
+Click the "Enable" button.<br />
+## Step 3: Create the OAuth 2.0 Client ID ##<br />
+Go to the Google Cloud Console.<br />
+Click on the hamburger menu and select APIs & Services > Credentials.<br />
+Click on the "Create credentials" button and select "OAuth client ID."<br />
+Select the application type that best fits your application.<br />
+Enter a name for your application and click the "Create" button.<br />
+Download the JSON file for your OAuth 2.0 Client ID. You will use this file in your application to authenticate with Google.<br />
+## Step 4: Use the OAuth 2.0 Client ID in your application ##<br />
+In your application, import the JSON file that you downloaded in Step 3.<br />
+Use the Client ID to authenticate with Google and access the API that you enabled in Step 2.<br />
+## Conclusion ##<br />
+By following the steps in this guide, you should now have a Google Cloud project that uses an OAuth 2.0 Client ID. This will allow you to authenticate your application and access Google APIs on behalf of users.<br />
