@@ -3,15 +3,15 @@
 In this guide, we will walk you through the steps to create a Google Cloud project that uses an OAuth 2.0 Client ID. OAuth 2.0 is an authorization framework that allows you to secure access to resources on behalf of users. By using a Client ID, you can authenticate your application and access Google APIs.
 
 ## Prerequisites ##
-A Google account. If you don't have one, create one at accounts.google.com.\
-Access to the Google Cloud Console. If you don't have access, you can request it here.
+A Google account. If you don't have one, create one at accounts.google.com.<br />
+Access to the Google Cloud Console. If you don't have access, you can request it here.<br />
 ## Step 1: Create a Google Cloud Project ##
 Go to the Google Cloud Console.
-Click on the project drop-down and select or create the project that you want to add the OAuth 2.0 Client ID to.\
-Click on the hamburger menu and select APIs & Services > Dashboard.\
-Click on the hamburger menu again and select APIs & Services > Library.
+Click on the project drop-down and select or create the project that you want to add the OAuth 2.0 Client ID to.<br />
+Click on the hamburger menu and select APIs & Services > Dashboard.<br />
+Click on the hamburger menu again and select APIs & Services > Library.<br />
 ## Step 2: Enable APIs ##
-Search for the API that you want to enable for your project. For example, if you want to access the Google Drive API, search for "Google Drive API."\
+Search for the API that you want to enable for your project. For example, if you want to access the Google Drive API, search for "Google Drive API."<br />
 Click on the API that you want to enable.\
 Click the "Enable" button.
 ## Step 3: Create the OAuth 2.0 Client ID ##
