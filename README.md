@@ -3,6 +3,7 @@
 ## Part 1 Creating a Google Cloud Project with OAuth 2.0 Client ID <br />
 ### Introduction <br />
 In this subsection, we will walk you through the steps to create a Google Cloud project that uses an OAuth 2.0 Client ID. OAuth 2.0 is an authorization framework that allows you to secure access to resources on behalf of users. By using a Client ID, you can authenticate your application and access Google APIs. <br />
+In regards to how this project protains to the bot setting up this project will allow for users to receive email notifications when the bot has purcahsed an item.
 
 ### Prerequisites <br />
 1. A Google account. If you don't have one, create one at [accounts.google.com](accounts.google.com).<br />
