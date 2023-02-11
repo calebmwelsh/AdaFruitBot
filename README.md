@@ -5,7 +5,7 @@ In this guide, we will walk you through the steps to create a Google Cloud proje
 ## Prerequisites <br />
 1. A Google account. If you don't have one, create one at [accounts.google.com](accounts.google.com).<br />
 2. Access to the Google Cloud Console. If you don't have access, you can request it [here](https://console.cloud.google.com/welcome?).<br />
-## Step 1: Create a Google Cloud Project ## <br />
+## Step 1: Create a Google Cloud Project <br />
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/welcome?). <br />
 2. Click on the project drop-down and select or create the project that you want to add the OAuth 2.0 Client ID to.<br />
 3. Click on the hamburger menu and select APIs & Services > Dashboard.<br />
