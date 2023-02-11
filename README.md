@@ -31,9 +31,9 @@ In this subsection, we will walk you through the steps to create a Google Cloud 
 2. No need to rename file, it should look very similar to the sample file in the same directory.<br />
 ### Conclusion <br />
 By following the steps in this guide, you should now have a Google Cloud project that uses an OAuth 2.0 Client ID. This will allow you to authenticate your application and access Google APIs on behalf of users.<br />
-
-
-
+<br />
+<br />
+<br />
 ## Part 2 Configuration File Setup <br />
 ### Introduction <br />
 In this subseection, we will walk you through the steps to setup the configuration file located here. This configuration file will determine the product you want to automate and will include the credentials for your Ada Fruit account(s).  <br />
