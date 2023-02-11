@@ -24,7 +24,7 @@ In this guide, we will walk you through the steps to create a Google Cloud proje
 ## Step 4: Use the OAuth 2.0 Client ID in your application <br />
 1. In your application, import the JSON file that you downloaded in Step 3.<br />
 2. Use the Client ID to authenticate with Google and access the API that you enabled in Step 2.<br />
-3. ## Step 5: Add Client ID Secrets To Package <br />
+## Step 5: Add Client ID Secrets To Package <br />
 1. After downloading the google client ID secrets json file move it to the data/config directory.<br />
 2. No need to rename file, it should look very similar to the sample file in the same directory.<br />
 ## Conclusion <br />
