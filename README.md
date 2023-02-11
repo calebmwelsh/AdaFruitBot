@@ -42,6 +42,8 @@ In this subseection, we will walk you through the steps to setup the configurati
 1. One or more Ada Fruit accounts. If you don't have one, create one at [adafruit.com/](https://www.adafruit.com/).<br />
 2. You will also need to enable two factor authentication if you plan to bot more popular items i.e. Raspberry Pi. 
 You can enable two factor [here](https://accounts.adafruit.com/users/security). <br />
+3. You will also need to enter in your payment information for your ada fruit account [here](https://www.adafruit.com/payment_methods). <br />
+3. You will also need to enter in your address information for your ada fruit account [here](https://www.adafruit.com/addresses). <br />
 
 ### Overview <br />
 This [file](https://github.com/calebmwelsh/AdaFruitBot/blob/main/lib/config_sample.py) provides information about the config.py file, which contains information for interacting with various platforms and services. The file includes the following sections: <br />
@@ -57,6 +59,7 @@ The selenium section of the creds JSON file includes the following fields: <br /
 
 driver_path: The file path to the Chrome driver executable. <br />
 url: The URL of the website that will be accessed using the Selenium web driver. This should be the product you want to automate a purchase for. <br />
+WARNING This url will determine what the bot buys therefore double check you have this url correct or it will purchase the wrong item! <br />
 
 ### Gmail <br />
 
