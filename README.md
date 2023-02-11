@@ -41,44 +41,47 @@ In this subseection, we will walk you through the steps to setup the configurati
 ### Prerequisites <br />
 1. One or more Ada Fruit accounts. If you don't have one, create one at [adafruit.com/](https://www.adafruit.com/).<br />
 2. You will also need to enable two factor authentication if you plan to bot more popular items i.e. Raspberry Pi. 
-You can enable two factor [here](https://accounts.adafruit.com/users/security)<br />\
+You can enable two factor [here](https://accounts.adafruit.com/users/security). <br />
 
 ### Overview <br />
-This file provides information about the config.py file, which contains information for interacting with various platforms and services. The file includes the following sections:
+This [file](https://github.com/calebmwelsh/AdaFruitBot/blob/main/lib/config_sample.py) provides information about the config.py file, which contains information for interacting with various platforms and services. The file includes the following sections: <br />
 
-1. selenium: Information for using the Selenium web driver to access a website.
-2. gmail: Information for accessing a Gmail account.
-3. accounts: Information for accessing two different Ada Fruit accounts, including login information and checkout information.
-
-
-### Selenium
-
-The selenium section of the creds JSON file includes the following fields:
-
-driver_path: The file path to the Chrome driver executable.
-url: The URL of the website that will be accessed using the Selenium web driver.
-
-### Gmail
-
-The gmail section of the creds JSON file includes the following field:
-
-gmail_address: The email address of the Gmail account that will be accessed.
-
-### Accounts
-
-The accounts section of the creds JSON file includes information for two different Ada Fruit accounts. Each account has the following fields:
-
-login_info: Information for logging into the account.
-username: The username for the account.
-password: The password for the account.
-otp: The one-time password for the account.
-checkout_info: Information for checking out as a customer.
-name: The name to use during checkout.
-address: The address to use during checkout.
-city: The city to use during checkout.
-postal_code: The postal code to use during checkout.
-state: The state to use during checkout.
-phone_number: The phone number to use during checkout.
+1. selenium: Information for using the Selenium web driver to access a website.<br />
+2. gmail: Information for accessing a Gmail account.<br />
+3. accounts: Information for accessing two different Ada Fruit accounts, including login information and checkout information.<br />
 
 
-#### Note: Replace all fields enclosed in < > with actual values.
+### Selenium <br />
+
+The selenium section of the creds JSON file includes the following fields: <br />
+
+driver_path: The file path to the Chrome driver executable. <br />
+url: The URL of the website that will be accessed using the Selenium web driver. This should be the product you want to automate a purchase for. <br />
+
+### Gmail <br />
+
+The gmail section of the creds JSON file includes the following field: <br />
+
+gmail_address: The email address of the Gmail account that will be accessed. <br />
+
+### Accounts <br />
+
+The accounts section of the creds JSON file includes information for two different Ada Fruit accounts. Each account has the following fields: <br />
+
+login_info: Information for logging into the account. <br />
+username: The username for the account. <br />
+password: The password for the account. <br />
+otp: The one-time password for the account. <br />
+checkout_info: Information for checking out as a customer. <br />
+name: The name to use during checkout. <br />
+address: The address to use during checkout. <br />
+city: The city to use during checkout. <br />
+postal_code: The postal code to use during checkout. <br />
+state: The state to use during checkout.  <br />
+phone_number: The phone number to use during checkout. <br />
+
+
+#### Note: 
+1. Replace all fields enclosed in < > with actual values. <br />
+2. If you choose to simply edit the config_sample.py file be sure to remove the *_sample* from the file name.  <br />
+3. You should end up with a file named config.py in the [lib](https://github.com/calebmwelsh/AdaFruitBot/tree/main/lib) directory <br />
