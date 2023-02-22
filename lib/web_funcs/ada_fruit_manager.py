@@ -239,8 +239,8 @@ class AdaFruitManager:
         # iterate through all meta products
         for product in all_products:
             # inner meta option name and stock status
-            product_type = self.parser.wait_for_element(By.CLASS_NAME,'stripes_oos_tag ',element=product)
-            product_stock = self.parser.wait_for_element(By.CLASS_NAME,'meta_pid_box_status ',element=product)
+            product_type = self.parser.wait_for_element(By.CLASS_NAME,'option_name',element=product)
+            product_stock = self.parser.wait_for_element(By.CLASS_NAME,'option_meta',element=product)
             # if element equals exists
             if product_type and product_stock:
                 # if testing state is true
